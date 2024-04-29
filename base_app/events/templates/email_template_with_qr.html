@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template with QR Code</title>
+</head>
+<body>
+    <h1>Welcome to Our Website!</h1>
+    <p>Thank you for visiting our website. Here's a QR code for more information:</p>
+    <h2>QR Code Image</h2>
+    <!-- Use template syntax to insert the dynamic image data into the src attribute -->
+    <img src="data:image/png;base64,{{ qr_code_image }}" alt="{{ qr_code_alt_text }}">
+    <p>You can scan the QR code using your smartphone or QR code scanner app to access more information.</p>
+    <p>Best regards,<br>Our Website Team</p>
+</body>
+</html>
+
+
+
