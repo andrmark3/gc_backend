@@ -70,7 +70,10 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://127.0.0.1:8000"
+    "http://127.0.0.1:8000",
+    "10.114.0.2",
+    "10.114.0.2:8000",
+    "10.114.0.2:3000",
 ]
 
 ROOT_URLCONF = 'base_app.urls'
